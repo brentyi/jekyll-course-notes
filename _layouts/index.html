@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{{ page.content | markdownify }}
+
+<div class="home">
+  <div class="materials-wrap">
+    {%- for module in page.modules -%}
+      <div class="module-header">Module {% increment module_index %}: {{module.name}}</div>
+      {%- assign sorted_chapters = site.chapters | sort: "order" -%}
+      {%- for chapter in sorted_chapters -%}
+        {% comment %} We assume chapter URLs are formatted as /module_name/chapter_name. {% endcomment %}
+        {%- assign chapter_dir = chapter.url | remove_first: "/" | split: "/" | first -%}
+        {%- if chapter_dir != module.chapter_dir -%}
+          {%- continue -%}
+        {%- endif -%}
+        <div class="materials-item">
+          <a href="{{chapter.url | relative_url}}">{{chapter.title}}</a>
+          <div class="keywords">
+            {{ chapter.keywords }}
+          </div>
+        </div>
+      {%- endfor %}
+    {%- endfor -%}
+  </div>
+</div>
