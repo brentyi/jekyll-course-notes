@@ -1,7 +1,7 @@
 # Site settings
 title: Jekyll Course Notes Theme
 email: brentyi@berkeley.edu
-description: "Generic theme for"
+description: "Jekyll theme for CS231n-style course notes."
 baseurl: "/jekyll-course-notes"
 url: "https://brentyi.github.io"
 courseurl: "https://github.com/brentyi/jekyll-course-notes"
