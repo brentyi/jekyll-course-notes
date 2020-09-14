@@ -14,8 +14,6 @@ GEM
     execjs (2.7.0)
     ffi (1.13.1)
     forwardable-extended (2.6.0)
-    htmlbeautifier (1.3.1)
-    htmlcompressor (0.4.0)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -38,10 +36,6 @@ GEM
       autoprefixer-rails (~> 9.3)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-tidy (0.2.2)
-      htmlbeautifier
-      htmlcompressor
-      jekyll
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.0)
@@ -74,7 +68,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 4.1.0)
   jekyll-autoprefixer
-  jekyll-tidy
 
 BUNDLED WITH
    2.1.4

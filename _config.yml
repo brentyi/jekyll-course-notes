@@ -16,6 +16,11 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+jekyll_prettier:
+    exclude: ["*.css"]
 
 # Define chapter collection
 collections:
