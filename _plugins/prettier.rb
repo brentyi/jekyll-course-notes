@@ -1,8 +1,20 @@
+# Post-render hooks for formatting Jekyll outputs with prettier; runs if
+# prettier is installed, eg:
+# ```
+#   npm install --global prettier
+# ```
+# or, with Yarn:
+# ```
+#   yarn global add prettier
+# ```
+# =============================
+# brentyi@berkeley.edu
+
 require 'open3'
 
- def command?(command)
-   system("which #{ command} > /dev/null 2>&1")
- end
+def command?(command)
+  system("which #{ command} > /dev/null 2>&1")
+end
 
 if !command?("prettier")
   puts "!!!"
