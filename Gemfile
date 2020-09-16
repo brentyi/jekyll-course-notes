@@ -7,4 +7,5 @@ gem "jekyll", "4.1.0"
 # gem "rails"
 group :jekyll_plugins do
   gem "jekyll-autoprefixer"
+  gem "jekyll-prettier"
 end

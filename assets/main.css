@@ -2,8 +2,8 @@
 layout: null
 ---
 
-{% include_relative include/normalize.css %}
-{% include_relative include/highlight.css %}
+{% include_relative _include/normalize.css %}
+{% include_relative _include/highlight.css %}
 
 /* Base */
 /* ----------------------------------------------------------*/
