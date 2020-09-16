@@ -4,8 +4,6 @@ keywords: optimization landscapes, local search, learning rate, analytic/numeric
 order: 1
 ---
 
-# Linear Classification
-
 ### Table of Contents:
 
 - [Intro to Linear classification](#intro)

@@ -4,8 +4,6 @@ keywords:
 order: 0
 ---
 
-# Linear Classification
-
 ### Table of Contents:
 
 - [Intro to Linear classification](#intro)

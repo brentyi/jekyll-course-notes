@@ -4,8 +4,6 @@ keywords: parameteric approach, bias trick, hinge loss, cross-entropy loss, L2 r
 order: 1
 ---
 
-# Linear Classification
-
 ### Table of Contents:
 
 - [Intro to Linear classification](#intro)

@@ -4,8 +4,6 @@ keywords: chain rule interpretation, real-valued circuits, patterns in gradient 
 order: 0
 ---
 
-# Linear Classification
-
 ### Table of Contents:
 
 - [Intro to Linear classification](#intro)
