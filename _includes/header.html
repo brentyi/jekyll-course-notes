@@ -1,4 +1,6 @@
 <header class="site-header">
   <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-  <a class="site-link" href="{{ site.courseurl }}">Course Website</a>
+  {% if site.courseurl %}
+    <a class="site-link" href="{{ site.courseurl }}">Course Website</a>
+  {% endif %}
 </header>
